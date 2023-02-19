@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap');
+*{
+    box-sizing: border-box; /*Le da el tamaño*/
+    font-family: "Anton"; /*nombre del tipo de fuente*/
+    margin: 0;
+    padding: 0;
+
+}
+html{
+   scroll-behavior: smooth; /*permite deslizar cuando haces click en los enlaces del menu*/
+
+}
+.contenedorbarra{ /*barra de arriba*/
+    background:#1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.contenedorbarra header{
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+
+}
+.contenedorbarra header .nombre a{ /*Jon*/
+    font-family: "Anton";
+    font-size: 36px;
+    color: #1d79ae;
+    text-decoration: none;
+}
+.contenedorbarra header ul{
+    display: flex;
+    list-style: none; /*poner la lista de vertical a horizontal*/
+}
+.contenedorbarra header nav ul li a{
+    text-align: none;
+    color:#fff;
+    margin: 0 15px;
+    padding: 3px;
+    transition: .5s;
+    text-decoration: none; /*quitar la barra de los link*/
+    
+}
+.barraicono{
+    background-color: #1d79ae;
+    color: #fff;
+    padding: 4px 6px; /*tamaño de cuadrado*/
+    border-radius: 10px; /*bordeado del cuadrado*/
+    cursor: pointer;
+    display: none;
+    
+}
+
+.contenedorbarra header nav ul li a:hover{
+    color: #1d79ae;
+}
+.inicio{
+    
+    
+    background:  linear-gradient(to right,rgba(30,35,38,0.9),rgba(30,35,38,0.5)), url("cool-background1.png");
+    background-size: cover;
+    height: 115vh; /*altura de inicio*/
+    color: #fff; /*color de las letras*/
+    display: flex;
+    align-items: center; /*aliniar foto y texto*/
+}
+.inicio .contenidoinicio{
+    padding:20px; /*ajusta el tamaño*/
+    background-color: #1e2326;
+    max-width: 350px; /*tamaño del cuadrado*/
+    margin: auto; /* centrado del cuadrado*/
+    text-align: center;
+    border-radius: 40px; /*bordes del cuadrdo*/
+}
+.inicio .contenidoinicio img{
+    margin-top: 40px;
+    border:10px solid #1d79ae; /*circulo alrededor de la foto*/
+    display: block;
+    width: 100%; /* centrado de la foto en el cuadrado*/
+    margin: auto;
+    border-radius: 100%; /*hace el circulo*/
+}
+.inicio .contenidoinicio h1{
+    margin-top: 40px; /*separacion entre foto y texto*/
+    font-size: 42px; /*tamaño de la letra*/
+    font-family: "Anton";
+    font-weight: normal; /*se ve mas claro*/
+}
+.inicio .contenidoinicio h2{
+    font-size: 25px;
+    font-weight: normal;
+}
+.inicio .contenidoinicio .redes a{
+    color: #fff;
+    text-decoration: none;
+    display: inline-block; /*centra los logos*/
+    border: 1px solid #1d79ae;
+    border-radius: 100%;
+    width: 42px;
+    height: 42px;
+    line-height: 42px; /*centrado de los logos con los circulos*/
+    margin:20px 1px; /*separacion con el texto */
+    font-size: 20px;
+    transition: 2s;
+}
+.inicio .contenidoinicio .redes a:hover{
+    background-color: #1d79ae;
+}
+.sobremi{
+    background-image:  linear-gradient(to right,rgba(30,35,38,0.9),rgba(30,35,38,0.5)), url("cool-background1.png");
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px; /*separacion*/
+    
+}
+.sobremi .contenidosobremi{
+    max-width: 1100px; /*centra el texo*/
+    margin: auto;
+}
+.sobremi h2{
+    font-size: 50px;
+    font-family: "Anton";
+    text-align: center;
+    padding: 20px 0;
+    font-weight: normal;
+}
+.sobremi .contenidosobremi p{
+    font: 200px;
+    line-height: 24px;
+    margin-bottom: 22px;
+}
+.sobremi .contenidosobremi p span{
+    color: #1d79ae;
+    font-weight:bold;
+}
+.sobremi .datospersonales{
+    display: flex;
+    width: 50%;
+}
+.sobremi .titulodatospersonales{
+    font-size: 30px;
+    font-family: "Anton";
+    margin-bottom: 25px;
+    font-weight: normal;
+}
+.sobremi .contenidosobremi .datospersonales ul{
+    list-style: none;
+    margin: 12px 0;
+}
+.sobremi .contenidosobremi  .datospersonales ul li span{
+    color: #1d79ae;
+    display: inline-block;
+    width: 130px;
+    
+}
+.hobbies{
+    background:  linear-gradient(to right,rgba(30,35,38,0.9),rgba(30,35,38,0.5)), url("cool-background1.png");;
+    background-size: cover;
+    color: #fff;
+    padding: 100px 20px;
+    display: auto;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    
+
+    
+    
+}
+.hobbies h2{
+    font-family: "Anton";
+    text-align: center; 
+    font-size: 50px;
+    font-weight: normal;
+}
+.hobbies .iconoshobbies{
+    padding: 50px 300px ;
+    display: flex;
+    align-items: center;
+}
+.hobbies .iconoshobbies .iconojuegos{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 100px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid#1d79ae;
+}
+.hobbies .iconoshobbies .iconoviaje{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 100px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid#1d79ae;
+}
+.hobbies .iconoshobbies .iconobalon{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 100px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid#1d79ae;
+}
+.hobbies .iconoshobbies .iconoarma{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 100px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid#1d79ae;
+}
+.hobbies .iconoshobbies .iconopc{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 110px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid#1d79ae;
+}
+.hobbies .iconoshobbies .iconomusica{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 100px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid #1d79ae;
+}
+.hobbies .iconoshobbies .iconofiesta{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 100px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid#1d79ae;
+}
+.hobbies .iconoshobbies .iconocoche{
+    padding:20px; 
+    background-color: #1e2326;
+    max-width: 100px; 
+    margin: auto; 
+    text-align: center;
+    border-radius: 20px;
+    border: 5px solid#1d79ae;
+}
+.contactar{
+    background-image:  linear-gradient(to right,rgba(30,35,38,0.9),rgba(30,35,38,0.5)), url("cool-background1.png");
+    background-size: cover;
+    color: #fff;
+    padding: 50px 20px; /*separacion*/
+}
+.contactar h2{
+    font-family: "Anton";
+    text-align: center; 
+    font-size: 50px;
+    font-weight: normal;
+}
+.contactar .contactarlist{
+    text-align: center;
+    padding: 20px 50px;
+    color: #1d79ae;
+}
+@media screen and (max-width:980px){
+    nav{
+        display: none;
+    }
+    .barraicono{
+        display:block;
+    }
+    nav.botonesbarra{
+        display: block;
+        position: absolute;
+        right:0;
+        top: 75px;
+        background-color: #1d79ae;
+        width: 180px;
+    }
+    nav.botonesbarra ul{
+        display: block !important;
+    }
+    nav.botonesbarra ul li{
+        border-bottom: 1px solid #fff;
+        padding: 10px 0;
+    }
+}
+@media screen and (max-width:750px){
+    .sobremi .datospersonales .titulodatospersonales{
+        display: block;
+        width: fit-content;
+    }
+    .hobbies{
+        display: block;
+        width: 100%;
+    }
+    .contactar{
+        display: block;
+    }
+}
+
+
