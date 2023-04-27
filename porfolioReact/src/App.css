@@ -1,0 +1,17 @@
+.barraInicio{
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+  
+}
+
+.logo{
+  font-size: 30px;
+  margin-right: 1000px;
+  cursor: pointer;
+}
+
+.barraBoton{
+  cursor: pointer;
+}
