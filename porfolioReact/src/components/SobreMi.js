@@ -1,3 +1,5 @@
+import './css/SobreMi.css'
+
 const aboutMe = () => {
     return (
         <div>
