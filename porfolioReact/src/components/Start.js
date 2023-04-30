@@ -12,7 +12,7 @@ const start = () => {
             <h2>Programador Web</h2>
             <h3>Hola, bienvenidos a mi porfolio personal donde podreis conocer mas sobre mi, mis gustos o mis habilidades como Programador web</h3>
             <img className='fotoStart' src={foto}/>
-            <ul>
+            <ul className='redes'>
                 <li className='instagramStart'>
                     <a href='https://www.instagram.com/jzapatab/' target="_blank">
                         <BsInstagram />
