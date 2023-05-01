@@ -1,0 +1,24 @@
+.proyects h1{
+    text-align: center;
+    font-size: 70px;
+    color: #028090;
+    text-shadow:0.1em 0.1em 0.5em #6b6b6b
+}
+
+.proyects p{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.proyects .tittleProyects{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    margin-left: 50px;
+    font-size: 40px;
+    color:#cb48b7;
+    text-shadow:0.1em 0.1em 0.9em #6b6b6b
+}

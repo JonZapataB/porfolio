@@ -1,7 +1,26 @@
+.sobreMi{
+    margin-bottom: 150px;
+}
+
+.hobbies {
+    margin-top: 200px;
+    margin-bottom: 50px;
+    list-style: none;
+    font-size: 30px;
+}
+
+.hobbies li{
+    text-align: right;
+    margin-right: 200px;
+    color: #cb48b7;
+}
+
 .fotos{
     width: 600px;
     height: 430px;
     display:Flex;
+    margin-left: 200px;
+    margin-top: -400px;
 }
 
 .fotos img{
@@ -17,4 +36,18 @@
     width: 300px;
     opacity: 1;
     filter:contrast(120%)
+}
+
+.sobreMi h1{
+    text-align: center;
+    font-size: 70px;
+    color: #028090;
+    text-shadow:0.1em 0.1em 0.5em #6b6b6b
+}
+
+.sobreMi p{
+    text-align:center;
+    font-size: 20px;
+    color: #fff;
+    margin-top: 20px;
 }

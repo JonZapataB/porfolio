@@ -16,45 +16,45 @@ const skills = () => {
             <h1>Habilidades</h1>
             <section className='skillsList'>
                 <div>
-                    <p>HTML</p>
-                    <p><IoLogoHtml5 /></p>
+                    <p className='skillsName'>HTML</p>
+                    <p className='skillsLogo'><IoLogoHtml5 /></p>
                 </div>
                 <div>
-                    <p>CSS</p>
-                    <p><IoLogoCss3 /></p>
+                    <p className='skillsName'>CSS</p>
+                    <p className='skillsLogo'><IoLogoCss3 /></p>
                 </div>
                 <div>
-                    <p>JavaScript</p>
-                    <p><IoLogoJavascript /></p>
+                    <p className='skillsName'>JavaScript</p>
+                    <p className='skillsLogo'><IoLogoJavascript /></p>
                 </div>
                 
                 <div>
-                    <p>React</p>
-                    <p><IoLogoReact /></p>
+                    <p className='skillsName'>React</p>
+                    <p className='skillsLogo'><IoLogoReact /></p>
                 </div>
                 <div>
-                    <p>Node</p>
-                    <p><IoLogoNodejs /></p>
+                    <p className='skillsName'>Node</p>
+                    <p className='skillsLogo'><IoLogoNodejs /></p>
                 </div>
                {/*  <p>
                     Express
                     
                 </p> */}
                 <div>
-                    <p>MySQL</p>
-                    <p><GrMysql /></p>
+                    <p className='skillsName'>MySQL</p>
+                    <p className='skillsLogo'><GrMysql /></p>
                 </div>
                 <div>
-                    <p>MongoDB</p>
-                    <p><SiMongodb /></p>
+                    <p className='skillsName'>MongoDB</p>
+                    <p className='skillsLogo'><SiMongodb /></p>
                 </div>
                 <div>
-                    <p>Git</p>
-                    <p><BsGit /></p>
+                    <p className='skillsName'>Git</p>
+                    <p className='skillsLogo'><BsGit /></p>
                 </div>
                 <div>
-                    <p>GitHub</p>
-                    <p><IoLogoGithub /></p>
+                    <p className='skillsName'>GitHub</p>
+                    <p className='skillsLogo'><IoLogoGithub /></p>
                 </div>
             </section>
         </div>

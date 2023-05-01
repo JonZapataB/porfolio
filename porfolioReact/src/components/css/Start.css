@@ -1,27 +1,167 @@
+.start{
+    margin-top: 220px;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    font-size: 30px;
+}
+
+
 .fotoStart{
     width: 400px;
     height: 400px;
-    display:block;
     margin-left: auto; 
-    margin-right: 100px;
-    float: right;
+    margin-right: 150px;
+    display:flex;
+    
+}
+.fotoStart{
+    box-shadow:0.1em 0.1em 0.5em rgb(255,255,255,1);
+    background:linear-gradient(
+        45deg,
+        #028090,#cb48b7,#028090,#cb48b7,#028090,#cb48b7
+    );
+    background-size: 800%;
+    
+    z-index: -1;
+    animation: glowing 30s linear infinite;
+    border-radius: 50%;
 }
 
 div {
     clear: right;
 }
+ 
+.textos{
+    width: 1000px;
+    height: 0;
     
+}
 
-.redes{
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    width: 200px;
+.textos h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #028090;
+    margin-bottom: 10px;
+    text-shadow:0.1em 0.1em 0.5em #6b6b6b;
+}
+
+.textos h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #cb48b7;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    text-shadow:0.1em 0.1em 0.5em #6b6b6b;
+}
+
+.textos h3{
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 10px;
+    text-shadow:0.1em 0.1em 0.9em #6b6b6b;
 }
 
 .redes a{
     text-decoration: none;
     color: #fff;
-    font-size: 30px;
+    
+
 }
+
+.redes{
+    display: flex;
+    column-gap: 25px;
+    
+}
+
+.icon{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon a{
+    margin:auto;
+    text-decoration: none;
+}
+
+.icon a:hover{
+    animation: shake 0.25s;
+}
+
+.instagramStart:hover{
+    background-image:radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.linkedinStart:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.twitterStart:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.githubStart:hover{
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+.cv:hover{
+    background-color: #d61919;
+    outline-color: #d61919;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+@keyframes glowing{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 400% 0;
+    }
+    100%{
+        background-position: 800% 0;
+    }
+}
+
+
+
+
+
+
 

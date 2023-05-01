@@ -1,0 +1,47 @@
+.skills h1{
+    text-align: center;
+    font-size: 70px;
+    color: #028090;
+    text-shadow:0.1em 0.1em 0.5em #6b6b6b
+}
+
+.skillsList{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 150px;
+    justify-content: center;
+}
+
+.skillsName{
+    /* display:none; */
+    width: 100px;
+    margin-left: 10px;
+    color:rgb(255, 255, 255);
+    opacity: 0;
+    font-size: 20px;
+    
+
+}
+
+.skillsLogo{
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    font-size: 50px;
+    margin-top: -70px;
+    background-color: #cb48b7;
+    color: black;
+    border-radius: 10px;
+    margin-right: 50px;
+    
+}
+
+
+.skillsName:hover{
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.skillsLogo:hover{
+    color: #cb48b7;
+}

@@ -1,0 +1,17 @@
+.contact{
+    padding-bottom: 100px;
+}
+
+.contact h1{
+    text-align: center;
+    font-size: 70px;
+    color: #028090;
+    text-shadow:0.1em 0.1em 0.5em #6b6b6b
+}
+
+.contact p{
+    text-align:center;
+    font-size: 30px;
+    color: #fff;
+    margin-top: 100px;
+}

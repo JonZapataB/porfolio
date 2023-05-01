@@ -7,7 +7,7 @@ import { BsInstagram} from 'react-icons/bs';
 
 const contact = ()  => {
     return (
-        <div>
+        <div className='contact'>
             <h1>Contacto</h1>
             <p>Si quieres contactar conmigo puedes hacerlo a traves de mis redes sociales o enviandome un correo electronico</p>
             <ul>
@@ -37,6 +37,18 @@ const contact = ()  => {
                     </a>
                 </li>
             </ul>
+            <section className='datosContact'>
+                <label for="fname">Nombre:</label> 
+                <input type="text" id="fname" name="fname" placeholder="Tu nombre.."></input>
+                <br></br>
+                <label for="lname">Apellido:</label>
+                <input type="text" id="lname" name="lname" placeholder="Tu apellido.."></input>
+                <br></br>
+                <label for="subject">Mensaje:</label>
+                <textarea id="subject" name="subject" placeholder="Escribe algo.." style={{height:'200px'}}></textarea>
+                <br></br>
+                <input type="submit" value="Enviar"></input>
+            </section>
         </div>
     )
 }

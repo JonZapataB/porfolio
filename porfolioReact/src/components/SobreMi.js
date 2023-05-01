@@ -6,11 +6,11 @@ import foto4 from '../img/20220803_194908.jpg'
 
 const aboutMe = () => {
     return (
-        <div>
+        <div className='sobreMi'>
             <h1>Sobre mi</h1>
-            <p>Soy Jon Zapata, un Programador web joven con grandes ambiciones.</p>
+            <p>Soy Jon Zapata, un Programador web joven con grandes aptitudes.</p>
             <p>Nacido en Bilbao un dia del año 1999</p>
-            <ul>
+            <ul className='hobbies'>
                 <li>Futbol</li>
                 <li>Videojuegos</li>
                 <li>Motor</li>
