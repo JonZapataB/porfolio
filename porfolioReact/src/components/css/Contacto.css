@@ -1,5 +1,6 @@
 .contact{
     padding-bottom: 100px;
+    
 }
 
 .contact h1{
@@ -15,3 +16,169 @@
     color: #fff;
     margin-top: 100px;
 }
+
+.media a{
+    text-decoration: none;
+    color: #fff;
+    
+    
+
+}
+
+.media{
+    display: flex;
+    column-gap: 25px;
+    justify-content: center;
+    padding-left: 0px;
+    
+}
+
+.icon{
+    display: inline-flex;
+    width: 60px;
+    height: 60px;
+    text-decoration: none;
+    
+    font-size: 26px;
+    color: #fff;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    transition-property: outline-offset, outline-color, background-color;
+    transition-duration: 0.25s;
+}
+
+.icon:hover{
+    outline-offset: 4px;
+}
+
+.icon a{
+    margin:auto;
+    text-decoration: none;
+}
+
+.icon a:hover{
+    animation: shake 0.25s;
+}
+
+.instagramStart:hover{
+    background-image:radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285AEB 90%);
+    outline-color: #a02d76;
+}
+
+.linkedinStart:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.twitterStart:hover{
+    background-color: #1da1f2;
+    outline-color: #1da1f2;
+}
+
+.githubStart:hover{
+    background-color: #2ea44f;
+    outline-color: #2ea44f;
+}
+
+.email:hover{
+    background-color: #d61919;
+    outline-color: #d61919;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+
+.datosContact{
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 80px;
+    color: #cb48b7;
+    font-size: 30px;
+    margin-right: 400px;
+    
+}
+
+.textName{
+    margin-bottom: 10px;
+}
+
+.inputName{
+    border-radius: 7px;
+    font-size:20px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.textSecondName{
+    margin-bottom: 10px;
+
+}
+
+.inputSecondName{
+    border-radius: 7px;
+    font-size:20px;
+    text-align: center;
+    margin-bottom: 15px;
+
+}
+
+.inputMessage{
+    border-radius: 7px;
+    font-size:20px;
+    width: 400px;
+    margin-left: 300px;
+
+}
+
+.textEmail{
+
+    margin-bottom: 10px;
+}
+
+.inputEmail{
+    border-radius: 7px;
+    font-size:20px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.textMessage{
+    margin-left: 300px;
+    margin-top:-800px;
+}
+
+.send{
+    margin-right: 225px;
+    margin-top: 50px;
+    color: #cb48b7;
+    background-color:#202020 ;
+    border:none;
+    font-size: 30px;
+}
+
+.message{
+    text-align: center;
+    color: #cb48b7;
+    font-size: 30px;
+    margin-top: -250px;
+    margin-left: 230px;
+}
+
