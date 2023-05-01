@@ -7,12 +7,17 @@
     margin-bottom: 50px;
     list-style: none;
     font-size: 30px;
+    color: #cb48b7;
+}
+.hobbiesTittle{
+    color:#028090;
+    font-size: 55px;
 }
 
 .hobbies li{
     text-align: right;
     margin-right: 200px;
-    color: #cb48b7;
+    
 }
 
 .fotos{

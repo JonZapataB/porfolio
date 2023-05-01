@@ -11,6 +11,7 @@ const aboutMe = () => {
             <p>Soy Jon Zapata, un Programador web joven con grandes aptitudes.</p>
             <p>Nacido en Bilbao un dia del año 1999</p>
             <ul className='hobbies'>
+                <li className='hobbiesTittle'>Hobbies:</li>
                 <li>Futbol</li>
                 <li>Videojuegos</li>
                 <li>Motor</li>
