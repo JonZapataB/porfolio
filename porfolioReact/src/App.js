@@ -4,6 +4,7 @@ import AboutMe from './components/SobreMi';
 import Skills from './components/Habilidades';
 import Projects from './components/Proyectos';
 import Contact from './components/Contacto';
+import {HiMenu} from 'react-icons/hi'
 
 /* function seleccionar() {
   const boton = document.querySelector('.barraBoton');
@@ -15,16 +16,19 @@ function App() {
     <div className='porfolio'>
       <ul className='barraInicio'>
         <li className='logo'>JZ</li>
+        <li className='hamburguer'>
+          <HiMenu />
+        </li>
         <li className='barraBoton'>
-          <a href='#Start.js' /* onClick={seleccionar()} */>INICIO</a></li>
+          <a href='#inicio' /* onClick={seleccionar()} */>INICIO</a></li>
         <li className='barraBoton'>
-          <a href='Sobremi.js' /* onClick={seleccionar()} */>SOBRE MI</a></li>
+          <a href='#sobreMi' /* onClick={seleccionar()} */>SOBRE MI</a></li>
         <li className='barraBoton'>
-          <a href='Habilidades.js' /* onClick={seleccionar()} */>HABILIDADES</a></li>
+          <a href='#skills' /* onClick={seleccionar()} */>HABILIDADES</a></li>
         <li className='barraBoton'>
-          <a href='Proyecyos.js' /* onClick={seleccionar()} */>PROYECTOS</a></li>
+          <a href='#proyectos' /* onClick={seleccionar()} */>PROYECTOS</a></li>
         <li className='barraBoton'>
-          <a href='Contacto.js' /* onClick={seleccionar()} */>CONTACTO</a></li>
+          <a href='#contacto' /* onClick={seleccionar()} */>CONTACTO</a></li>
       </ul>
       <Start />
       <AboutMe/>

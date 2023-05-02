@@ -26,3 +26,50 @@
     color:#cb48b7;
     text-shadow:0.1em 0.1em 0.9em #6b6b6b
 }
+
+.proyectsListFront{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color:#fff;
+    list-style: none;
+}
+
+.fotoProyect1, .fotoProyect2, .fotoProyect3{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+
+.fotoProyect1:hover, .fotoProyect2:hover, .fotoProyect3:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+    color: rgb(2, 128, 144, 0.5);
+    
+    
+}
+
+.proyectsListBack{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+    color:#fff;
+    list-style: none;
+}
+
+.fotoProyect4, .fotoProyect5{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+

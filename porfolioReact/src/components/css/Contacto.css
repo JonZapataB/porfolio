@@ -172,6 +172,7 @@
     background-color:#202020 ;
     border:none;
     font-size: 30px;
+    cursor: pointer;
 }
 
 .message{

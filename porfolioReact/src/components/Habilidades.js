@@ -12,7 +12,7 @@ import {IoLogoGithub} from 'react-icons/io5'
 
 const skills = () => {
     return (
-        <div className='skills'>
+        <div className='skills' id='skills'>
             <h1>Habilidades</h1>
             <section className='skillsList'>
                 <div>

@@ -7,7 +7,7 @@ import foto from '../img/Jonnoche.png'
 
 const start = () => {
     return (
-        <div className='start'>
+        <div className='start' id='inicio'>
             <section className='textos'>
                 <h1>Jon Zapata</h1>
                 <h2>Programador Web</h2>

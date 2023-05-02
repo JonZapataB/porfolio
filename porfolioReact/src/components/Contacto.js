@@ -8,7 +8,7 @@ import {MdOutlineAlternateEmail} from 'react-icons/md';
 
 const contact = ()  => {
     return (
-        <div className='contact'>
+        <div className='contact' id='contacto'>
             <h1>Contacto</h1>
             <p>Si quieres contactar conmigo puedes hacerlo a traves de mis redes sociales, por correo o a traves de la pagina de contacto</p>
             <ul className='media'>
@@ -38,27 +38,29 @@ const contact = ()  => {
                     </a>
                 </li>
             </ul>
-            <section className='datosContact'>
-                <label className='textName' for="fname">Nombre:</label> 
-                <br></br>
-                <input className='inputName' type="text" id="fname" name="fname" placeholder="Tu nombre.."></input>
-                <br></br>
-                <label className='textSecondName' for="lname">Apellido:</label>
-                <br></br>
-                <input className='inputSecondName' type="text" id="lname" name="lname" placeholder="Tu apellido.."></input>
-                <br></br>
-                <label className='textEmail' for="email">Email:</label>
-                <br></br>
-                <input className='inputEmail' type="email" id="email" name="email" placeholder="Tu email.."></input>
-                <br></br>
-            </section>
-            <section className='message'>
-                <label className='textMessage' for="subject">Asunto:</label>
-                <br></br>
-                <textarea className='inputMessage' id="subject" name="subject" placeholder="Escribe algo.." style={{height:'200px'}}></textarea>
-                <br></br>
-                <input className='send' type="submit" value="Enviar"></input>
-            </section>
+            <form action="send.php" method="post" name="contactoForm" id ="contactoForm">
+                <section className='datosContact'>
+                    <label className='textName' for="fname">Nombre:</label> 
+                    <br></br>
+                    <input name='name' className='inputName' type="text" id="fname"  placeholder="Tu nombre.."></input>
+                    <br></br>
+                    <label className='textSecondName' for="lname">Apellido:</label>
+                    <br></br>
+                    <input  name='apellido' className='inputSecondName' type="text" id="lname" placeholder="Tu apellido.."></input>
+                    <br></br>
+                    <label className='textEmail' for="email">Email:</label>
+                    <br></br>
+                    <input  name='email' className='inputEmail' type="email" id="email"  placeholder="Tu email.."></input>
+                    <br></br>
+                </section>
+                <section className='message'>
+                    <label className='textMessage' for="subject">Asunto:</label>
+                    <br></br>
+                    <textarea name='mensaje'className='inputMessage' id="subject" placeholder="Escribe algo.." style={{height:'200px'}}></textarea>
+                    <br></br>
+                    <input className='send' type="submit" value="Enviar"></input>
+                </section>
+            </form> 
         </div>
     )
 }
