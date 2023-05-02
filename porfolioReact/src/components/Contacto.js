@@ -38,7 +38,7 @@ const contact = ()  => {
                     </a>
                 </li>
             </ul>
-            <form action="send.php" method="post" name="contactoForm" id ="contactoForm">
+            <form action="/send.php" method="post" name="contactoForm" id ="contactoForm">
                 <section className='datosContact'>
                     <label className='textName' for="fname">Nombre:</label> 
                     <br></br>

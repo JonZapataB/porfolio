@@ -15,45 +15,45 @@ const skills = () => {
         <div className='skills' id='skills'>
             <h1>Habilidades</h1>
             <section className='skillsList'>
-                <div>
-                    <p className='skillsName'>HTML</p>
+                <div className='divHTML'>
+                    <span className='skillsName'>HTML</span>
                     <p className='skillsLogo'><IoLogoHtml5 /></p>
                 </div>
-                <div>
-                    <p className='skillsName'>CSS</p>
+                <div className='divCSS'>
+                    <span className='skillsName'>CSS</span>
                     <p className='skillsLogo'><IoLogoCss3 /></p>
                 </div>
-                <div>
-                    <p className='skillsName'>JavaScript</p>
+                <div className='divJS'>
+                    <span className='skillsName'>JavaScript</span>
                     <p className='skillsLogo'><IoLogoJavascript /></p>
                 </div>
                 
-                <div>
+                <div className='divREACT'>
                     <p className='skillsName'>React</p>
                     <p className='skillsLogo'><IoLogoReact /></p>
                 </div>
-                <div>
-                    <p className='skillsName'>Node</p>
+                <div className='divNODE'>
+                    <span className='skillsName'>Node</span>
                     <p className='skillsLogo'><IoLogoNodejs /></p>
                 </div>
                {/*  <p>
                     Express
                     
                 </p> */}
-                <div>
-                    <p className='skillsName'>MySQL</p>
+                <div className='divMYSQL'>
+                    <span className='skillsName'>MySQL</span>
                     <p className='skillsLogo'><GrMysql /></p>
                 </div>
-                <div>
-                    <p className='skillsName'>MongoDB</p>
+                <div className='divMONGODB'>
+                    <span className='skillsName'>MongoDB</span>
                     <p className='skillsLogo'><SiMongodb /></p>
                 </div>
-                <div>
-                    <p className='skillsName'>Git</p>
+                <div className='divGIT'>
+                    <span className='skillsName'>Git</span>
                     <p className='skillsLogo'><BsGit /></p>
                 </div>
-                <div>
-                    <p className='skillsName'>GitHub</p>
+                <div className='divGITHUB'>
+                    <span className='skillsName'>GitHub</span>
                     <p className='skillsLogo'><IoLogoGithub /></p>
                 </div>
             </section>

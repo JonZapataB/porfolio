@@ -5,43 +5,171 @@
     text-shadow:0.1em 0.1em 0.5em #6b6b6b
 }
 
-.skillsList{
+/* .skillsList{
     display:flex;
     flex-wrap: wrap;
     margin-top: 150px;
     justify-content: center;
 }
 
-.skillsName{
-    /* display:none; */
+.skillsList div{
+    background-color: #ffffff8f;
+    color: black;
+    border-radius: 20px;
+    margin-right: 50px;
+    height:100px;
     width: 100px;
+    padding-bottom: 20px;
+}
+
+.skillsName{
+    width: 60px;
+    height: 30px;
     margin-left: 10px;
-    color:rgb(255, 255, 255);
+    color:black;
     opacity: 0;
     font-size: 20px;
-    
-
+    z-index: -1;
 }
 
 .skillsLogo{
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    font-size: 50px;
+    font-size: 100px;
     margin-top: -70px;
-    background-color: #cb48b7;
-    color: black;
-    border-radius: 10px;
-    margin-right: 50px;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.skills {
+    background-color: #202020;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
+.skills h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color:#028090;
+}
 
-.skillsName:hover{
+.skillsList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    }
+
+    .skillsList div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    }
+
+    .skillsLogo {
+    position: relative;
+    font-size: 40px;
+    }
+
+    .skillsLogo > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease-in-out;
+    }
+
+    .skillsLogo > span {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    }
+
+    .skillsLogo:hover > svg {
+    opacity: 0;
+    }
+
+    .skillsLogo:hover > span {
     opacity: 1;
-    transition: 0.5s;
-}
+    }
 
-.skillsLogo:hover{
-    color: #cb48b7;
-}
+    .skillsName {
+    font-size: 1.5rem;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    }
+
+    .divHTML {
+    color: #E44D26;
+    }
+
+    .divCSS {
+    color: #1572B6;
+    }
+
+    .divJS {
+    color: #F7DF1E;
+    }
+
+    .divREACT {
+    color: #61DAFB;
+    }
+
+    .divNODE {
+    color: #215732;
+    }
+
+    .divMYSQL {
+    color: #4479A1;
+    }
+
+    .divMONGODB {
+    color: #4DB33D;
+    }
+
+    .divGIT {
+    color: #F05032;
+    }
+
+    .divGITHUB {
+    color: #a1a1a1;
+    }
+
+
+
+    .skillsLogo {
+    position: relative;
+    }
+
+    .skillsLogo > svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: opacity 0.3s ease-in-out;
+    }
+
+    .skillsLogo > span {
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    }
+
+
+
+    .skillsLogo:hover > svg {
+    opacity: 0;
+    }
+
+    .skillsLogo:hover > span {
+    opacity: 1;
+    }
+  
+
+
+
+
+
+
