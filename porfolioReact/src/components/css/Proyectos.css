@@ -60,38 +60,42 @@
     margin-left: 50px;
     margin-top: 50px;
     border-radius: 10px;
-} 
-
-/* .proyectsListFront{
-    display:flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-left: 50px;
-    font-size: 30px;
-    color:#fff;
-    list-style: none;
 }
 
+@media screen and (max-width: 768px) {
 
-
-.fotoProyect1:hover, .fotoProyect2:hover, .fotoProyect3:hover{
-    transform: scale(1.1);
-    transition: 0.5s;
-    color: rgb(2, 128, 144, 0.5);
+    .proyects {
+    margin-bottom: 100px;
+    }
     
+    .proyects h1 {
+    font-size: 50px;
+    }
     
-}
-
-.proyectsListBack{
-    display:flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    margin-left: 50px;
+    .proyects p {
+    font-size: 16px;
+    margin-top: 10px;
+    }
+    
+    .proyects .tittleProyects {
     font-size: 30px;
-    color:#fff;
-    list-style: none;
+    }
+    
+    .container {
+    margin-left: 0px;
+    }
+    
+    .card {
+    min-width: 300px;
+    min-height: 300px;
+    }
+    
+    .fotoProyect1, .fotoProyect2, .fotoProyect3, .fotoProyect4, .fotoProyect5 {
+    width: 300px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 10px;
+    }
 }
-
-*/
 
 
