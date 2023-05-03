@@ -105,81 +105,102 @@
     }
 }
 
-.datosContact{
-    flex-wrap: wrap;
-    text-align: center;
-    margin-top: 80px;
-    color: #cb48b7;
-    font-size: 30px;
-    margin-right: 400px;
-    
-}
 
-.textName{
-    margin-bottom: 10px;
-}
-
-.inputName{
-    border-radius: 7px;
-    font-size:20px;
-    text-align: center;
-    margin-bottom: 15px;
-
-}
-
-.textSecondName{
-    margin-bottom: 10px;
-
-}
-
-.inputSecondName{
-    border-radius: 7px;
-    font-size:20px;
-    text-align: center;
-    margin-bottom: 15px;
-
-}
-
-.inputMessage{
-    border-radius: 7px;
-    font-size:20px;
-    width: 400px;
-    margin-left: 300px;
-
-}
-
-.textEmail{
-
-    margin-bottom: 10px;
-}
-
-.inputEmail{
-    border-radius: 7px;
-    font-size:20px;
-    text-align: center;
-    margin-bottom: 15px;
-}
-
-.textMessage{
-    margin-left: 300px;
-    margin-top:-800px;
-}
-
-.send{
-    margin-right: 225px;
+/* Estilos para el formulario */
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin-top: 50px;
-    color: #cb48b7;
-    background-color:#202020 ;
-    border:none;
-    font-size: 30px;
+  }
+  
+  /* Estilos para los campos de datos */
+  .datosContact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+  }
+  
+  .textName, .textSecondName, .textEmail {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .inputName, .inputSecondName, .inputEmail {
+    background-color: #202020;
+    color: white;
+    width: 300px;
+    padding: 10px;
+    border: none;
+  }
+  
+  /* Estilos para el campo de mensaje */
+  .message {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+  }
+  
+  .textMessage {
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #444444;
+  }
+  
+  .inputMessage {
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #202020;
+  }
+  
+  /* Estilos para el botón de enviar */
+  .send {
+    margin-top: 50px;
+    background-color: #CB48B7;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     cursor: pointer;
-}
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .send:hover {
+    background-color: #ffffff;
+    color: #CB48B7;
+  }
+  
+  @media  screen and (max-width: 768px) {
+    .contact{
+        margin-left: 50px;
+        margin-right: 50px;
+    }
 
-.message{
-    text-align: center;
-    color: #cb48b7;
-    font-size: 30px;
-    margin-top: -250px;
-    margin-left: 230px;
+    .media {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-right: 50px;
+    }
+    
+    .icon {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
+    }
 }
-

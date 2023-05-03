@@ -4,6 +4,7 @@ import { BsGithub} from 'react-icons/bs';
 import { BsTwitter} from 'react-icons/bs';
 import { BsInstagram} from 'react-icons/bs';
 import {MdOutlineAlternateEmail} from 'react-icons/md';
+import {BsSend} from 'react-icons/bs';
 
 
 const contact = ()  => {
@@ -58,7 +59,7 @@ const contact = ()  => {
                     <br></br>
                     <textarea name='mensaje'className='inputMessage' id="subject" placeholder="Escribe algo.." style={{height:'200px'}}></textarea>
                     <br></br>
-                    <input className='send' type="submit" value="Enviar"></input>
+                    <input className='send' type="submit" value='Enviar'></input>
                 </section>
             </form> 
         </div>

@@ -1,5 +1,6 @@
 .proyects{
     margin-bottom: 150px;
+    scroll-behavior: smooth;
 }
 
 .proyects h1{
@@ -27,7 +28,41 @@
     text-shadow:0.1em 0.1em 0.9em #6b6b6b
 }
 
-.proyectsListFront{
+.container{
+    display: flex;
+    flex-direction: row;
+    gap:24px;
+    padding: 16px;
+    max-width: 700px;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    margin-left: 550px;
+}
+
+.card{
+    scroll-snap-align: start;   
+    min-width: 500px;
+    min-height: 500px;
+    color:#028090;
+}
+
+.fotoProyect1, .fotoProyect2, .fotoProyect3{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    border-radius: 10px;
+    
+}
+
+.fotoProyect4, .fotoProyect5{
+    width: 400px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 50px;
+    border-radius: 10px;
+} 
+
+/* .proyectsListFront{
     display:flex;
     flex-wrap: wrap;
     margin-top: 50px;
@@ -37,14 +72,7 @@
     list-style: none;
 }
 
-.fotoProyect1, .fotoProyect2, .fotoProyect3{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-    margin-top: 50px;
-    border-radius: 10px;
-    
-}
+
 
 .fotoProyect1:hover, .fotoProyect2:hover, .fotoProyect3:hover{
     transform: scale(1.1);
@@ -64,12 +92,6 @@
     list-style: none;
 }
 
-.fotoProyect4, .fotoProyect5{
-    width: 400px;
-    height: 300px;
-    margin-left: 50px;
-    margin-top: 50px;
-    border-radius: 10px;
-}
+*/
 
 
